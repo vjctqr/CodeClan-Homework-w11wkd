@@ -17,4 +17,10 @@ public class Passenger {
     public int bagCount(){
         return this.luggage.size();
     }
+
+    public void add(Bag bag){
+        this.luggage.add(bag);
+    }
+
+
 }
