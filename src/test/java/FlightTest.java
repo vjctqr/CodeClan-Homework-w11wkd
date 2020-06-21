@@ -39,5 +39,10 @@ public class FlightTest {
         assertEquals("0700", flight.getDepartureTime());
     }
 
+    @Test
+    public void bookedPassengersStartAt0(){
+        assertEquals(0, flight.bookedPassengerSize());
+    }
+
 
 }
