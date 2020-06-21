@@ -35,6 +35,10 @@ public class Flight {
         return departureTime;
     }
 
+    public int bookedPassengerSize(){
+        return this.bookedPassengers.size();
+    }
+
 
 
 
