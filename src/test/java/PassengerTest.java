@@ -6,25 +6,21 @@ import static org.junit.Assert.assertEquals;
 public class PassengerTest {
 
     Passenger passenger;
-    Bag bag;
-    Bag bag1;
-    Bag bag2;
 
     @Before
     public void setup(){
-        passenger = new Passenger("Victor", 2);
-
+        passenger = new Passenger("Victor");
     }
 
     @Test
     public void hasName(){
-        assertEquals("Victor", passenger.name );
+        assertEquals("Victor", passenger.getName() );
     }
 
-    @Test
-    public int hasBag(){
-        assertEquals(2);
-    }
+//    @Test
+//    public int hasBag(){
+//        assertEquals(2);
+//    }
 
 
 
