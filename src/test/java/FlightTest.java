@@ -49,6 +49,10 @@ public class FlightTest {
         assertEquals(PlaneType.JET, flight.getCraft());
     }
 
+    @Test
+    public void hasCapacity(){
+        assertEquals(100, flight.getCapacity());
+    }
 
 
 }
