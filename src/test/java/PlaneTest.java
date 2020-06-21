@@ -16,4 +16,9 @@ public class PlaneTest {
     public void canGetCraft(){
         assertEquals(PlaneType.JET, plane.getCraft());
     }
+
+    @Test
+    public void boeingHasCapacity(){
+        assertEquals(300, plane.getCapacityFromEnum());
+    }
 }

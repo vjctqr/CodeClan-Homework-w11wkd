@@ -10,6 +10,10 @@ public class Plane {
         return craft;
     }
 
+    public int getCapacityFromEnum(){
+        return this.craft.getCapacity();
+    }
+
 
 
 }
