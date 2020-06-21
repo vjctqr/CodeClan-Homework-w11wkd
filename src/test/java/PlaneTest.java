@@ -10,6 +10,7 @@ public class PlaneTest {
     @Before
     public void before(){
         plane = new Plane(PlaneType.JET);
+        plane = new Plane(PlaneType.BOEING);
     }
 
     @Test

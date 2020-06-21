@@ -14,6 +14,10 @@ public class Plane {
         return this.craft.getCapacity();
     }
 
+    public int getWeightFromEnum(){
+        return this.craft.getWeight();
+    }
+
 
 
 }
