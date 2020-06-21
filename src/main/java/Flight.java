@@ -1,2 +1,24 @@
+import java.util.ArrayList;
+
 public class Flight {
+
+    private String flightNumber;
+    private String destination;
+    private String departureAirport;
+    private String departureTime;
+    private ArrayList<Passenger> bookedPassengers;
+    private PlaneType craft;
+
+
+    public Flight(String flightNumber, String destination, String departureAirport, String departureTime, PlaneType craft){
+        this.flightNumber = flightNumber;
+        this.destination = destination;
+        this.departureAirport = departureAirport;
+        this.departureTime = departureTime;
+        this.bookedPassengers = new ArrayList<Passenger>();
+        this.craft = craft;
+    }
+
+
+
 }
