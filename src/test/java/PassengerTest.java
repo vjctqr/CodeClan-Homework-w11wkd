@@ -20,8 +20,8 @@ public class PassengerTest {
     }
 
     @Test
-    public int hasBag(){
-        assertEquals(2);
+    public void passengerStartsWithNoBag(){
+        assertEquals(0, passenger.bagCount());
     }
 
 
