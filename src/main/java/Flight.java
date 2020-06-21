@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 
 public class Flight {
@@ -18,6 +19,13 @@ public class Flight {
         this.bookedPassengers = new ArrayList<Passenger>();
         this.craft = craft;
     }
+
+    public String getFlightNumber(){
+        return flightNumber;
+    }
+
+
+
 
 
 
