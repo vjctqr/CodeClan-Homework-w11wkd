@@ -43,6 +43,12 @@ public class Flight {
         return this.craft;
     }
 
+    public int getJetCapacityFromEnum(){
+        return
+    }
+
+
+
 
 
 
