@@ -43,13 +43,9 @@ public class Flight {
         return this.craft;
     }
 
-    public int getJetCapacityFromEnum(){
-        return
+    public int getAirBusCapacityFromEnum(){
+        return this.craft.getCapacity();
     }
-
-
-
-
 
 
 
