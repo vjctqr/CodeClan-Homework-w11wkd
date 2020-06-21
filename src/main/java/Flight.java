@@ -47,6 +47,14 @@ public class Flight {
         return this.craft.getCapacity();
     }
 
+    public void bookPassenger(Passenger passenger){
+        if (this.bookedPassengerSize() < this.craft.getCapacity()){
+            this.bookedPassengers.add(passenger);
+        }
+    }
+
+
+
 
 
 
