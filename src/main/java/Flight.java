@@ -10,7 +10,6 @@ public class Flight {
     private ArrayList<Passenger> bookedPassengers;
     private PlaneType craft;
 
-
     public Flight(String flightNumber, String destination, String departureAirport, String departureTime, PlaneType craft){
         this.flightNumber = flightNumber;
         this.destination = destination;
@@ -26,6 +25,10 @@ public class Flight {
 
     public String getDestination(){
         return destination;
+    }
+
+    public String getDepartureAirport(){
+        return departureAirport;
     }
 
 
