@@ -24,5 +24,11 @@ public class FlightTest {
         assertEquals("Jet007", flight.getFlightNumber());
     }
 
+    @Test
+    public void hasDestination(){
+        assertEquals("London", flight.getDestination());
+    }
+
+
 
 }
