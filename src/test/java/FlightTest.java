@@ -54,5 +54,11 @@ public class FlightTest {
         assertEquals(500, flight.getAirBusCapacityFromEnum());
     }
 
+    @Test
+    public void canBookPassengerUnderCapacity(){
+        flight.bookPassenger(passenger1);
+        assertEquals(1, flight.bookedPassengerSize());
+    }
+
 
 }
