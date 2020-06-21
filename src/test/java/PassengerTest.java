@@ -24,6 +24,12 @@ public class PassengerTest {
         assertEquals(0, passenger.bagCount());
     }
 
+    @Test
+    public void canAddBag(){
+        passenger.add(bag);
+        assertEquals(1, passenger.bagCount);
+    }
+
 
 
 }
