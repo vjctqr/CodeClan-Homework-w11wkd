@@ -44,5 +44,11 @@ public class FlightTest {
         assertEquals(0, flight.bookedPassengerSize());
     }
 
+    @Test
+    public void hasPlaneType(){
+        assertEquals(PlaneType.JET, flight.getCraft());
+    }
+
+
 
 }
