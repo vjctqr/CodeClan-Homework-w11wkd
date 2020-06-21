@@ -39,6 +39,10 @@ public class Flight {
         return this.bookedPassengers.size();
     }
 
+    public PlaneType getCraft(){
+        return this.craft;
+    }
+
 
 
 
