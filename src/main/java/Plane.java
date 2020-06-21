@@ -6,6 +6,10 @@ public class Plane {
         this.craft = craft;
     }
 
+    public PlaneType getCraft(){
+        return craft;
+    }
+
 
 
 }
